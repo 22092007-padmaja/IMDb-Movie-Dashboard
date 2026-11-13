@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot  as plt
 st.title("IMDb Top 250 Movies Dashboard")
 st.subheader("Movie Analytics and Data Exploration")
-df = pd.read_csv("Top 250 movies on imdb in 2026.csv")
+df = pd.read_csv("ToP 250 movies on imdb in 2026.csv")
 st.success("Dataset loaded successfully!")
 # Initialize session state
 if "user_preferences" not in st.session_state:
